@@ -1,8 +1,10 @@
 {
   "name": "stocktickermapping",
   "version": "1.0.0",
-  "description": "",
+  "description": "map company names with stock market ticker",
   "main": "stockTickerMapping.js",
+  "repository": "https://github.com/tmicomyiza/StockTicker",
+  "keywords": ["node", "express", "heroku"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
