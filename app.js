@@ -3,7 +3,7 @@ const express = require("express"); // the library we will use to handle request
 const mongodb = require("mongodb"); // load mongodb
 const urls = require("url");
 
-const port = 8080; // port to listen on
+//const port = 8080; // port to listen on
 
 const app = express(); // instantiate express
 app.use(require("cors")()); // allow Cross-domain requests
@@ -50,7 +50,7 @@ mongodb.MongoClient.connect(uri, (err, db) => {
   });
 
   // listen for requests
-  var listener = app.listen(port, () => {
-    console.log("This app is listening on port " + listener.address().port);
-  });
+  // var listener = app.listen(port, () => {
+  //   console.log("This app is listening on port " + listener.address().port);
+  // });
 });
